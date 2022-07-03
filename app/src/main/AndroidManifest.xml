@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.il.example.play_with_app">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/logo2"
+        android:label="play with"
+        android:logo="@drawable/logo"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Verification_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Contacts_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Tabs_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp_Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp_Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Chat_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

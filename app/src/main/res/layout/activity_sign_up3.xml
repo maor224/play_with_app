@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".SignUp_Activity3">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/logo"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:text="Choose your city"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/citiesSpinner"
+        android:layout_height="30dp"
+        android:layout_width="250dp"
+        android:background="@drawable/edittext_background"
+        android:layout_gravity="center" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Choose your level"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/levelSpinner"
+        android:layout_height="30dp"
+        android:layout_width="250dp"
+        android:background="@drawable/edittext_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:text="Enter your birthday"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/etDate"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:drawablePadding="12dp"
+        android:paddingStart="8dp"
+        android:hint="Birthday"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:textAlignment="textStart"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnRegister"
+        android:background="@drawable/edittext_background"
+        android:backgroundTint="#F44F19"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center"
+        android:text="Start playing!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>

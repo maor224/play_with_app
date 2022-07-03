@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Verification_Activity">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="135dp"
+        android:background="@drawable/logo"
+        tools:ignore="MissingConstraints" />
+
+
+    <EditText
+        android:id="@+id/etCode"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Enter code"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:paddingStart="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black" />
+
+
+    <Button
+        android:id="@+id/btnVerify"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:backgroundTint="@color/black"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:text="verify"
+        android:textSize="18sp"
+        />
+
+
+</LinearLayout>
